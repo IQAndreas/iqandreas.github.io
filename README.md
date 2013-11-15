@@ -8,7 +8,7 @@ Don't you just hate it when you have several [GitHub pages](http://pages.github.
 
 Since you cannot inherit [Jekyll](http://jekyllrb.com/) projects from another project, this at least helps soften the blow.
 
-The CSS, JavaScript, and images are all stored here (and [accessed via absolute urls](https://github.com/IQAndreas/gh-pages-template/blob/2d626620ef8c6cb270c8f2f39795a3ced061eaba/_includes/imports/stylesheets.html#L7)), so if you update them once, the changes will propagate to all pages that use them. The changes to `_layouts`, `_includes`, and `_plugins` are only a `git merge` away from being updated in (but this is still very manual, and annoying, and needs to be done for every single project you want the change applied to).
+The CSS, JavaScript, and images are all stored here (and accessed via absolute URLs [[1]](https://github.com/IQAndreas/gh-pages-template/blob/gh-pages/_includes/imports/stylesheets.html) [[2]](http://static.iqandreas.com/assets/stylesheets/slate/main.css)), so if you update them once, the changes will propagate to all pages that use them. The changes to `_layouts`, `_includes`, and `_plugins` are only a `git merge` away from being updated in (but this is still very manual, and annoying, and needs to be done for every single project you want the change applied to).
 
 ### This isn't the best solution
 
