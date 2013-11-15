@@ -1,0 +1,16 @@
+/*@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);*/
+
+span#andreas-renberg {
+	font-family: 'Roboto Slab', serif;
+}
+
+span#iqandreas {
+	font-weight: bold;
+	font-family: 'Roboto Slab', serif;
+}
+span#iq {
+	color:rgb(0, 144, 255);
+}
+span#andreas {
+	font-size: 120%;
+}

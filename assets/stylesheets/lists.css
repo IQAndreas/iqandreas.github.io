@@ -1,0 +1,31 @@
+/* For those fancy lists of blog posts and repositories on the front page. See also `_includes/lists/` */
+
+div#blog-posts, div#repositories {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Basically the same format as `flink`. In fact, I'm just reinventing the wheel here. */
+li.blog-post, li.repository {
+	list-style-type: none;
+	background-repeat: no-repeat;
+	background-position: 0px center;
+	background-size: Auto 16px;
+	
+	margin-left: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 24px; 
+}
+
+li.blog-post {
+	background-image: url(http://blog.iqandreas.com/favicon.png);
+}
+
+li.repository {
+	background-image: url(http://github.com/favicon.ico);
+	font-weight: bold;
+}
+

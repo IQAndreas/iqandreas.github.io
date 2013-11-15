@@ -1,0 +1,78 @@
+
+#accounts {
+	position: absolute;
+	width: 640px;
+	text-align: center;
+	/*max-width: 640px;*/
+	z-index: 10;
+	bottom: -32px;
+	height: 64px;
+}
+
+a.account {
+	display: inline-block;
+	width: 64px;
+	height:64px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-indent: -5000px;
+	overflow: hidden;
+}
+
+/* Default value */
+a.account		{ background: url(/assets/account-icons/default.png); }
+
+/* Available accounts */
+a.aim			{ background: url(/assets/account-icons/aim.png); }
+a.amazon		{ background: url(/assets/account-icons/amazon.png); }
+a.blog			{ background: url(/assets/account-icons/blog.png); }
+a.buzz_yahoo	{ background: url(/assets/account-icons/buzz_yahoo.png); }
+a.delicius		{ background: url(/assets/account-icons/delicius.png); }
+a.deviantart	{ background: url(/assets/account-icons/deviantart.png); }
+a.digg			{ background: url(/assets/account-icons/digg.png); }
+a.digg2			{ background: url(/assets/account-icons/digg02.png); }
+a.dribbble		{ background: url(/assets/account-icons/dribbble.png); }
+a.facebook		{ background: url(/assets/account-icons/facebook.png); }
+a.ffffound		{ background: url(/assets/account-icons/ffffound.png); }
+a.fireeagle		{ background: url(/assets/account-icons/fireeagle.png); }
+a.flickr		{ background: url(/assets/account-icons/flickr.png); }
+a.google		{ background: url(/assets/account-icons/google.png); }
+a.in			{ background: url(/assets/account-icons/in.png); }
+a.itunes		{ background: url(/assets/account-icons/itunes.png); }
+a.lastfm		{ background: url(/assets/account-icons/lastfm.png); }
+a.msn			{ background: url(/assets/account-icons/msn.png); }
+a.myspace		{ background: url(/assets/account-icons/myspace.png); }
+a.netvibes		{ background: url(/assets/account-icons/netvibes.png); }
+a.openid		{ background: url(/assets/account-icons/openid.png); }
+a.orkut			{ background: url(/assets/account-icons/orkut.png); }
+a.picasa		{ background: url(/assets/account-icons/picasa.png); }
+a.reddit		{ background: url(/assets/account-icons/reddit.png); }
+a.rss			{ background: url(/assets/account-icons/rss.png); }
+a.share			{ background: url(/assets/account-icons/share.png); }
+a.skype			{ background: url(/assets/account-icons/skype.png); }
+a.stumbleupon	{ background: url(/assets/account-icons/stumbleupon.png); }
+a.technorati	{ background: url(/assets/account-icons/technorati.png); }
+a.tumblr		{ background: url(/assets/account-icons/tumblr.png); }
+a.twitter		{ background: url(/assets/account-icons/twitter.png); }
+a.twitter2		{ background: url(/assets/account-icons/twitter02.png); }
+a.up			{ background: url(/assets/account-icons/up.png); }
+a.vcard			{ background: url(/assets/account-icons/vcard.png); }
+a.vimeo			{ background: url(/assets/account-icons/vimeo.png); }
+a.wikipedia		{ background: url(/assets/account-icons/wikipedia.png); }
+a.yahoo			{ background: url(/assets/account-icons/yahoo.png); }
+a.yahoo2		{ background: url(/assets/account-icons/yahoo02.png); }
+a.yelp			{ background: url(/assets/account-icons/yelp.png); }
+a.youtube		{ background: url(/assets/account-icons/youtube.png); }
+
+/* Custom accounts */
+a.email			{ background: url(/assets/account-icons/email.png); }
+a.github		{ background: url(/assets/account-icons/github.png); }
+a.stackoverflow	{ background: url(/assets/account-icons/stackoverflow.png); }
+
+a.account {
+	background-position: top right; /* INACTIVE */
+}
+a.account:hover, a.account:focus {
+	background-position: top left; /* ACTIVE */
+}
+

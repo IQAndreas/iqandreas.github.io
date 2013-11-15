@@ -6,10 +6,13 @@
 	<!-- Styles for the Slate theme by by Jason Costello (@jsncostello) -->
 	{% include css global="slate/main.css" %}
 	{% include css global="slate/custom.css" %}
-	{% if site.github_url %}{% include css global="slate/github-project.css" %}{% endif %}
+	{% include css name="slate/header.css" %}
+	{% include css name="slate/footer.css" %}
+	{% include css name="accounts.css" %}
 {% endif %}
-
+	
 {% include css url="http://www.iqandreas.com/flink/stylesheets/all.css" %}
 {% include css global="snippets.css" %}
 {% include css global="tiny-images.css" %}
+{% include css name="lists.css" %}
 
