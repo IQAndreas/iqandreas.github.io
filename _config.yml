@@ -51,6 +51,7 @@ plugins: 	 _plugins
 
 exclude: [LICENSE.md, update.sh, init-docs.sh]
 
+relative_permalinks: false
 markdown: redcarpet
 pygments: true
 
