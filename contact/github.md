@@ -8,7 +8,7 @@ The languages I have been required to dabble in have varied from ActionScript to
 
 Nonetheless, nearly every _personal_ project I work on is open source, and usually finds its way onto GitHub:
 
-{% include flink site="github.com" title="IQAndreas on GitHub" url="https://github.com/IQAndreas/" %}
+{% include flink site="github.com" rel="me" title="IQAndreas on GitHub" url="https://github.com/IQAndreas/" %}
 
 Some recent or significant projects of mine include:
 

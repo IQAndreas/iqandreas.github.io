@@ -10,6 +10,6 @@ permalink: /contact/kirupa.com/index.html
 
 If you want to find me specifically there, I can be reached on this account:
 
-{% include flink site="kirupa.com" title="IQAndreas on the Kirupa Forums" url="http://www.kirupa.com/forum/member.php?134305-IQAndreas" %}
+{% include flink site="kirupa.com" rel="me" title="IQAndreas on the Kirupa Forums" url="http://www.kirupa.com/forum/member.php?134305-IQAndreas" %}
 
 
