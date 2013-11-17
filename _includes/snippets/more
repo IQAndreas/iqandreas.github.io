@@ -1,1 +1,1 @@
-<a href="{{ include.url }}" class="more">{% if include.title %}{{ include.title }}{% else %}More &rarr;{% endif %}</a>
+<a href="{{ include.url }}" class="more">{% if include.title %}{{ include.title }}{% else %}More{% endif %} <span class="more-icon">{% if include.icon %}{{ include.icon }}{% else %}&rarr;{% endif %}</span></a>
