@@ -1,1 +1,1 @@
-<a href="{% if include.url %}{{ include.url }}{% else %}{{ site.url }}{% endif %}" class="back">{% if include.title %}{{ include.title }}{% else %}&larr; Back{% endif %}</a>
+<a {% if include.rel %}rel="{{ include.rel }}"{% endif %} href="{% if include.url %}{{ include.url }}{% else %}{{ site.url }}{% endif %}" class="back"><span class="more-icon">{% if include.icon %}{{ include.icon }}{% else %}&larr;{% endif %}</span> {% if include.title %}{{ include.title }}{% else %}Back{% endif %}</a>

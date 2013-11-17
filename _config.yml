@@ -45,6 +45,7 @@ plugins: 	 _plugins
 relative_permalinks: false
 exclude: [update.sh]
 
+relative_permalinks: false
 markdown: redcarpet
 pygments: true
 
