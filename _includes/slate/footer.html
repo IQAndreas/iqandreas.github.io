@@ -1,10 +1,10 @@
 {% if site.github_url %}
-	<p><a href="{{ site.github_url }}">{{ site.title }}</a> is an open source project</p>
-	<p>maintained by <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
+	<p><a href="{{ site.github_url }}">{{ site.title }}</a> is an open source project<br/>
+	maintained by <a rel="author" href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a> 
 	{% if site.copyright_message %}
-		<span class="copyright">{{ site.copyright_message }}</p>
+		<span class="copyright">{{ site.copyright_message }}</span>
 	{% elsif site.github_license %}
-		and <span class="license">released under <a href="{% if site.github_license_url %}{{ site.github_license_url }}{% else %}{{ site.github_url }}/blob/master/LICENSE.md{% endif %}">{{ site.github_license }}</a></span>
+		and <span class="license">released under <a ref="license" href="{% if site.github_license_url %}{{ site.github_license_url }}{% else %}{{ site.github_url }}/blob/master/LICENSE.md{% endif %}">{{ site.github_license }}</a></span>
 	{% endif %}
 	</p>
 {% endif %}
