@@ -1,3 +1,6 @@
+---
+style: blank
+---
 <!DOCTYPE html>
 <html>
 	<head>
@@ -5,17 +8,14 @@
 		{% include redirect/head.html %}
 
 		<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-
-		<!-- Stylesheets (for ease of use, please incude fonts here) -->
-		{% for stylesheet in page.stylesheets %}
-		<link rel="stylesheet" type="text/css" href="{{ stylesheet }}" />
-		{% endfor %}
-
-		<!-- JavaScripts -->
-		{% for javascript in page.javascripts %}
-		<script type="text/javascript" src="{{ javascript }}"></script>
-		{% endfor %}
-
+		
+		{% include layouts/page_meta.html %}
+		
+		<!-- STYLESHEETS AND FONTS -->
+		{% include layouts/page_stylesheets.html %}
+		
+		<!-- JAVASCRIPTS -->
+		{% include layouts/page_javascripts.html %}
 	</head>
 	<body>
 		{% include redirect/body.html %}

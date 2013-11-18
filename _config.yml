@@ -4,9 +4,7 @@
 
 name: Andreas Renberg (IQAndreas)
 author: Andreas Renberg (IQAndreas)
-
 url: 'http://www.iqandreas.com/gh-pages-template'
-source_url: 'https://github.com/IQAndreas/gh-pages-template/tree/gh-pages'
 
 title: "GitHub Pages Jekyll Template"
 subtitle: "Avoiding repeated code across all my GitHub Pages"
@@ -41,6 +39,9 @@ global_fonts:       http://static.iqandreas.com/assets/fonts
 
 google_analytics_id:   UA-44446017-1
 google_analytics_name: iqandreas.com
+
+source_title_prefix: "GitHub: IQAndreas/gh-pages-template"
+source_url: 'https://github.com/IQAndreas/gh-pages-template/tree/gh-pages-minimal'
 
 # ----------------------- #
 #     Jekyll Configs      #

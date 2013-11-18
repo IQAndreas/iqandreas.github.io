@@ -1,3 +1,6 @@
+---
+style: slate
+---
 <!DOCTYPE html>
 <html>
 
@@ -6,10 +9,18 @@
 		{% include redirect/head.html %}
 
 		<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>		
+		
 		{% include imports/meta.html %}
+		{% include layouts/page_meta.html %}
+		
+		<!-- STYLESHEETS AND FONTS -->
 		{% include imports/fonts.html %}
 		{% include imports/stylesheets.html %}
+		{% include layouts/page_stylesheets.html %}
+		
+		<!-- JAVASCRIPTS -->
 		{% include imports/javascripts.html %}
+		{% include layouts/page_javascripts.html %}
 	</head>
 
 	<body>
@@ -17,7 +28,8 @@
 		<!-- HEADER -->
 		<div id="header_wrap" class="outer">
 			<header class="inner">
-				{% include slate/header.html %}
+				{% if page.minimal %} {% include slate/header-minimal.html %}
+				{% else %} {% include slate/header.html %} {% endif %}
 			</header>
 		</div>
 
@@ -32,7 +44,8 @@
 		<!-- FOOTER	-->
 		<div id="footer_wrap" class="outer">
 			<footer class="inner">
-				{% include slate/footer.html %}
+				{% if page.minimal %} {% include slate/footer-minimal.html %}
+				{% else %} {% include slate/footer.html %} {% endif %}
 			</footer>
 		</div>
 
