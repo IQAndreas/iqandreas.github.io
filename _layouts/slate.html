@@ -6,10 +6,18 @@
 		{% include redirect/head.html %}
 
 		<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>		
+		
 		{% include imports/meta.html %}
+		{% include layouts/page_meta.html %}
+		
+		<!-- STYLESHEETS AND FONTS -->
 		{% include imports/fonts.html %}
 		{% include imports/stylesheets.html %}
+		{% include layouts/page_stylesheets.html %}
+		
+		<!-- JAVASCRIPTS -->
 		{% include imports/javascripts.html %}
+		{% include layouts/page_javascripts.html %}
 	</head>
 
 	<body>
