@@ -28,7 +28,8 @@ style: slate
 		<!-- HEADER -->
 		<div id="header_wrap" class="outer">
 			<header class="inner">
-				{% include slate/header.html %}
+				{% if page.minimal %} {% include slate/header-minimal.html %}
+				{% else %} {% include slate/header.html %} {% endif %}
 			</header>
 		</div>
 
@@ -43,7 +44,8 @@ style: slate
 		<!-- FOOTER	-->
 		<div id="footer_wrap" class="outer">
 			<footer class="inner">
-				{% include slate/footer.html %}
+				{% if page.minimal %} {% include slate/footer-minimal.html %}
+				{% else %} {% include slate/footer.html %} {% endif %}
 			</footer>
 		</div>
 
