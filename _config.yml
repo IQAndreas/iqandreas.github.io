@@ -5,11 +5,15 @@
 name: Andreas Renberg (IQAndreas)
 author: Andreas Renberg (IQAndreas)
 url: 'http://www.iqandreas.com'
-source_url: 'https://github.com/IQAndreas/iqandreas.github.io/tree/master'
 
 title: Andreas Renberg (IQAndreas)
 displayed_title: <span id="andreas-renberg">Andreas Renberg</span>
 subtitle: Known on the internet as <span id="iqandreas"><span id="iq">IQ</span><span id="andreas">Andreas</span></span>
+
+#copyright_message: &copy;&nbsp;2013 by Andreas&nbsp;Renberg
+github_license: The MIT License
+github_license_url: https://github.com/IQAndreas/markdown-licenses/blob/master/mit.md
+
 
 # ----------------------- #
 #       Site Paths        #
@@ -34,6 +38,9 @@ global_fonts:       http://static.iqandreas.com/assets/fonts
 google_analytics_id:   UA-44446017-1
 google_analytics_name: iqandreas.com
 
+source_title_prefix: "GitHub: IQAndreas/iqandreas.github.io"
+source_url: 'https://github.com/IQAndreas/iqandreas.github.io/tree/master'
+
 # ----------------------- #
 #     Jekyll Configs      #
 # ----------------------- #
@@ -42,7 +49,6 @@ google_analytics_name: iqandreas.com
 destination: _public
 plugins: 	 _plugins
 
-relative_permalinks: false
 exclude: [update.sh]
 
 relative_permalinks: false

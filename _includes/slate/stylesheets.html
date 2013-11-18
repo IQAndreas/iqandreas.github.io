@@ -1,0 +1,12 @@
+<!-- Styles for the Slate theme by by Jason Costello (@jsncostello) -->
+{% include css global="slate/main.css" %}
+{% include css global="slate/custom.css" %}
+
+{% include css local="slate/header.css" %}
+{% include css local="slate/footer.css" %}
+
+{% if page.minimal %}
+	{% include css global="slate/minimal.css" %}
+{% else %}
+	{% include css local="accounts.css" %}
+{% endif %}
