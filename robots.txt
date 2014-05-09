@@ -5,3 +5,5 @@ Disallow: /harm/to/self
 
 # Seriously, though.
 Disallow: /temp
+
+Sitemap: http://www.iqandreas.com/sitemap.xml
