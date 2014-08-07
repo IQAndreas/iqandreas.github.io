@@ -1,1 +1,1 @@
-<li class="blog-post"><a href="{{ include.url }}">{{ include.title }}</a></li>
+<li class="blog-post" {% if include.favicon %}style="background-image: url({{ include.favicon }});"{% endif %}><a href="{{ include.url }}">{{ include.title }}</a></li>
