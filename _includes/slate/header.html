@@ -1,6 +1,6 @@
 <a id="title_link" href="{{ site.url }}">
-	<h1 id="page_title">{% if site.displayed_title %}{{ site.displayed_title }}{% else %}{{ site.title }}{% endif %}</h1>
-	{% if site.subtitle %}<h2 id="page_subtitle">{{ site.subtitle }}</h2>{% endif %}
+	<h1 id="page_title">{% if page.displayed_title %}{{ page.displayed_title }}{% elsif site.displayed_title %}{{ site.displayed_title }}{% else %}{{ site.title }}{% endif %}</h1>
+	<h2 id="page_subtitle">{% if page.subtitle %}{{ page.subtitle }}{% elsif site.subtitle %}{{ site.subtitle }}{% endif %}</h2>
 </a>
 
 {% include slate/accounts.html %}
